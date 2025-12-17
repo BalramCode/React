@@ -1,0 +1,11 @@
+ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    text-decoration: none;
+    background-color: #fbfbfb;
+}
+.active-link{
+    border: 2px solid rgb(250, 7, 7);
+}
