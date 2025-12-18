@@ -3,7 +3,7 @@
 // Importing necessary hooks from React
 import { useMemo, useState } from 'react'
 
-// Importing CSS for styling (assumed to be present in App.css)
+// Importing CSS for styling
 import './App.css'
 
 // Main functional component

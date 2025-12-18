@@ -6,12 +6,14 @@ import { useState } from 'react'
 function App() {
   const [count, setCount] = useState(0)
 
+  console.log("App rendered");
   return (
     <>
       <p>The value is {count}</p>
       <button onClick={()=>{setCount(count+1)}}>Click Here to increse count</button>
     </>
   )
+
 }
 
 export default App

@@ -1,7 +1,6 @@
 // useRef is a hook in React that provides a way to persist values across renders and access DOM elements directly. It’s part of React's Hooks API and is commonly used for managing mutable values that don't trigger re-renders when changed.
 
 
-
 // Importing React Hooks: useState (for reactive state) and useRef (for mutable values and DOM references)
 import { useState, useRef } from 'react'
 import './App.css'
@@ -9,6 +8,7 @@ import './App.css'
 function App() {
   // State variable 'count' initialized to 0 — this value changes will cause re-renders
   const [count, setCount] = useState(0)
+  console.log("render")
 
   // Using useRef to store a mutable value that persists across renders but DOESN'T cause re-renders when changed
   // If we had used `let val = 1`, its value would reset to 1 on every render
